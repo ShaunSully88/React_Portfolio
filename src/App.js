@@ -26,10 +26,13 @@ function App() {
         currentCategory={currentCategory}
       ></Nav>
       <main>
-        <ContactForm></ContactForm>
+      <About></About>
         <Apps currentCategory={currentCategory}></Apps>
-        <About></About>
+        
       </main>
+      <footer>
+      <ContactForm></ContactForm>
+      </footer>
     </div>
   );
 }
