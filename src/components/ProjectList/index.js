@@ -22,7 +22,7 @@ const ProjectList = ({ category }) => {
             <div className='flex-row'>
                 {currentProjects.map((image, i) => {
                     <img
-                    src={require().default}
+                    src={require(`../../assets/${category}/${i}.jpg`).default}
                     alt={image.name}
                     className='img-thumbnail mx-1'
                     key={image.name}
