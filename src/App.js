@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
 import About from './components/About';
-import ContactForm from './components/Contact';
+
 import Apps from './components/Apps';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -41,7 +41,6 @@ function App() {
       </main>
       <footer>
         <Footer></Footer>
-      <ContactForm></ContactForm>
       </footer>
     </div>
   );

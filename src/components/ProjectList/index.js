@@ -1,33 +1,38 @@
 import React, { useState } from 'react';
 
 const ProjectList = ({ category }) => {
-    const [projects] = useState([
+    const [photos] = useState([
         {
             name: 'Open Fields',
-            category: 'Front End',
+            category: 'project',
             description: ' App used to help with planting and harvesting a vegebtable garden'
         },
         {
             name: 'Books and Beans',
-            category: 'Full Stack',
+            category: 'project',
             description: 'App used to find book clubs and/or coffee shops in cities across Ontario'
+        },
+        {
+            name: "Employee Tracker",
+            category: "project",
+            description: "App used to explore employee database via mySQL"
         }
        
     ]);
 
-    const currentProjects = projects.filter(project => project.category === category);
+    const currentPhotos = photos.filter(photo => photo.category === category);
 
     return (
         <div>
             <div className='flex-row'>
-                {currentProjects.map((image, i) => {
+                {currentPhotos.map((image, i) => (
                     <img
                     src={require(`../../assets/${category}/${i}.jpg`).default}
                     alt={image.name}
                     className='img-thumbnail mx-1'
                     key={image.name}
                     />
-                })}
+                ))}
             </div>
         </div>
     )
