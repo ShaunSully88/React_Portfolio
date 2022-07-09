@@ -17,11 +17,7 @@ function Nav() {
       }
     return (
         <header>
-           <h2>
-             <a href="/">
-                <span role="img" areia-label="dog"></span> Code for K9
-              </a>
-            </h2> 
+        
             <nav>
                 <ul className="flex-row">
                     <li className="mx-2">
@@ -29,19 +25,24 @@ function Nav() {
                             About Me
                         </a>
                     </li>
-                    <li>
-                        <span>Contact</span>
+                    <li className="mx-2">
+                        <a href="#portfolio">
+                            Portfolio
+                        </a>
                     </li>
-                    {projects.map((project) => (
-                        <li
-                        className="mx-1"
-                        key={project.name}
-                        >
-                            <span onClick={projectSelected} >
-                                {project.name}
-                            </span>
-                        </li>
-                    ))}
+                    <li className="mx-2">
+                        <a href="#contact">
+                            Contact
+                        </a>
+                    </li>
+                  
+                    <li className="mx-2">
+                        <a href="#resume">
+                            Resume
+                        </a>
+                    </li>
+                    
+                    
                 </ul>
             </nav>
         </header>
