@@ -7,17 +7,14 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
-  const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
-    {
-      name: "Books and Beans",
-      description: 'App used to find book clubs and/or coffee shops in cities across Ontario',
-    },
-    { name: 'Open Fields', description: ' App used to help with planting and harvesting a vegebtable garden'},
-    { name: "Employee Tracker", description: "App used to research the employee database of a company"},
-  ]); 
+    { name: 'About'},
+    { name: 'project'}
+  ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+  const [contactSelected, setContactSelected] = useState(false);
 
   
 
