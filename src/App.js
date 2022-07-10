@@ -10,11 +10,11 @@ function App() {
   const [contactSelected, setContactSelected] = useState(false);
   const [categories] = useState([
     {
-      name: 'Books and Beans',
+      name: "Books and Beans",
       description: 'App used to find book clubs and/or coffee shops in cities across Ontario',
     },
     { name: 'Open Fields', description: ' App used to help with planting and harvesting a vegebtable garden'},
-
+    { name: "Employee Tracker", description: "App used to research the employee database of a company"},
   ]); 
 
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
@@ -35,8 +35,9 @@ function App() {
         setContactSelected={setContactSelected}
       ></Nav>
       <main>
-      <About></About>
       <Apps currentCategory={currentCategory}></Apps>
+      <About></About>
+      
         
       </main>
       <footer>

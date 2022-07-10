@@ -7,7 +7,7 @@ import photo from '../../assets/project/OpenFields.jpg';
 
     function Apps(props) {
         const currentCategory = {
-          name: "Books and Beans",
+          name: "project",
           description: "App used for seraching for coffee shops and book clubs",
         };
         return (
