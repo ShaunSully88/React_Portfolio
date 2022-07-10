@@ -6,7 +6,7 @@ function About() {
 
     return (
         <section className='my-5'>
-            <h1 id="about">Welcome to my Portfolio...</h1>
+            <h1 id="about">Shaun's Portfolio</h1>
             <p>
                 I am a Full Stack Web Developer based in Ottawa, Canada. When I am not working on projects I am spending time outside in my vegetable garden, going fishing, or wandering through the forest with my dogs. 
                 </p>

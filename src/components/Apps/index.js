@@ -1,6 +1,7 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import ProjectList from '../ProjectList'
+import photo from "../../assets/project/OpenFields.jpg";
 
 function Apps(props) {
   const currentCategory = {
@@ -17,6 +18,7 @@ function Apps(props) {
           alt="Example"
           className='img-thumbnail mx-1'
         />
+        <ProjectList category={currentCategory.name} />
       </div>
       
     </section>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import photo from "../../assets/project/OpenFields.jpg";
+
 
 const ProjectList = ({ category }) => {
     const [photos] = useState([
