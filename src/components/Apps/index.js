@@ -1,11 +1,11 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 import ProjectList from '../ProjectList'
-import photo from "../../assets/project/OpenFields.jpg";
+import photo from "../../assets/project/"
 
 function Apps(props) {
   const currentCategory = {
-    name: "project",
+    name: "Books n Beans",
     description: "App used for seraching for coffee shops and book clubs",
   };
   return (
