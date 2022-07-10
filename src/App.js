@@ -36,7 +36,7 @@ function App() {
       ></Nav>
       <main>
       <About></About>
-        <Apps currentCategory={currentCategory}></Apps>
+      <Apps currentCategory={currentCategory}></Apps>
         
       </main>
       <footer>

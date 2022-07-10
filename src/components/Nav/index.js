@@ -1,20 +1,8 @@
 const React = require('react');
 
-function Nav() {
+function Nav(props) {
 
-    const projects = [
-        {
-            name: "Open Fields",
-            description: "App to search for veggie planting instructions"
-        },
-        {
-            name: "Books and Beans",
-            description: "App used to find book clubs in Coffee Shops across the globe"
-        }
-    ];
-    function projectSelected() {
-        console.log("hello")
-      }
+    
     return (
         <header>
         

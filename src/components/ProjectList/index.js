@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+import photo from "../../assets/project/OpenFields.jpg";
+
 const ProjectList = ({ category }) => {
     const [photos] = useState([
         {
@@ -20,14 +22,14 @@ const ProjectList = ({ category }) => {
        
     ]);
 
-    const currentPhotos = photos.filter(photo => photo.category === category);
+    const currentPhotos = photos.filter((photo) => photo.category === category);
 
     return (
         <div>
             <div className='flex-row'>
                 {currentPhotos.map((image, i) => (
                     <img
-                    src={require(`../../assets/${category}/${i}.jpg`).default}
+                    src={require(`../../assets/project/${category}/${i}.jpg`).default}
                     alt={image.name}
                     className='img-thumbnail mx-1'
                     key={image.name}
