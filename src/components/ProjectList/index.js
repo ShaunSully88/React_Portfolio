@@ -1,18 +1,20 @@
 import React, { useState } from 'react';
+import Apps from '../Apps';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 
-
-const ProjectList = ({ category }) => {
+const ProjectList = ({ category, link }) => {
     const [photos] = useState([
         {
             name: 'Open Fields',
             category: 'project',
-            description: ' App used to help with planting and harvesting a vegebtable garden'
+            link: 'https://shaunsully88.github.io/Open-Fields/'
         },
         {
             name: 'Books and Beans',
             category: 'project',
-            description: 'App used to find book clubs and/or coffee shops in cities across Ontario'
+            link: 'https://github.com/haleytelega/Book-Beans'
         },
         {
             name: "Employee Tracker",
@@ -22,22 +24,22 @@ const ProjectList = ({ category }) => {
        
     ]);
 
-    const currentPhotos = photos.filter((photo) => photo.category === category);
-
     return (
         <div>
-            <div className='flex-row'>
-                {currentPhotos.map((image, i) => (
-                    <img
-                    src={require(`../../assets/project/2.jpg`).default}
-                    alt={image.name}
-                    className='img-thumbnail mx-1'
-                    key={image.name}
-                    />
-                ))}
+            <Container>
+            <div className="flex-row">
+            <Row>
+                {photos.map((image, i ) => (
+                    <Apps key={image.name} 
+                    img={image} i={i} category="portfolio" link={photos[i].link}  / >
+            ))}
+            </Row>
             </div>
+            </Container>
         </div>
-    )
+    );
+
+   
 };
 
 export default ProjectList;

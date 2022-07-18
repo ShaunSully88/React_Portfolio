@@ -1,30 +1,26 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
-import ProjectList from '../ProjectList'
-import photo from "../../assets/project/"
+import Col from 'react-bootstrap/Col';
 
-function Apps(props) {
-  const currentCategory = {
-    name: "Books n Beans",
-    description: "App used for seraching for coffee shops and book clubs",
-  };
-  return (
-    <section>
-      <h1>{capitalizeFirstLetter(currentCategory.name)}</h1>
-      <p>{currentCategory.name}</p>
-      <div className='flex-row'>
-        <img
-          src={photo}
-          alt="Example"
-          className='img-thumbnail mx-1'
-        />
-        <ProjectList category={currentCategory.name} />
-      </div>
-      
-    </section>
-  );
+function Apps( item ) {
+    
+    const { img, i, category, link } = item;
+    return (
+        <>
+        <Col md={4}>
+        <div className="portfolio_container">
+            <div className="portfolio_container-info">
+                <a className="portfolio_container-name" href={link} target="_blank" rel="noreferrer">{img.name}</a>
+            </div>
+            <img
+                src={require(`../../assets/${category}/${i}.jpg`).default}
+                alt={img.name}
+                className="portfolio_container-image"
+            />
+        </div>
+        </Col>
+        </>
+    )
 }
-
 
 
 export default Apps;
