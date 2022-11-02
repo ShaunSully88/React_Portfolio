@@ -12,7 +12,7 @@ function About() {
         <section className="my-5">
             <Row>
                 <Col>
-                    <img src={coverImage} className="my-2 Haley" style={{ width: "50%" }} alt="cover" />
+                    <img src={coverImage} className="my-2 Shaun" style={{ width: "50%" }} alt="cover" />
                 </Col>
                 <Col>
                     <h1 id="about">Shaun Sullivan</h1>
