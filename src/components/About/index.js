@@ -1,4 +1,4 @@
-import coverImage from "../../assets/cover/Charles (2).jpg";
+import coverImage from "../../assets/cover/ShaunAlices.jpg";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -12,7 +12,7 @@ function About() {
         <section className="my-5">
             <Row>
                 <Col>
-                    <img src={coverImage} className="my-2 Haley" style={{ width: "70%" }} alt="cover" />
+                    <img src={coverImage} className="my-2 Haley" style={{ width: "50%" }} alt="cover" />
                 </Col>
                 <Col>
                     <h1 id="about">Shaun Sullivan</h1>
