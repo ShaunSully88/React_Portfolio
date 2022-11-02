@@ -1,5 +1,9 @@
 import React from 'react';
 import Col from 'react-bootstrap/Col';
+import BooksAndBeans from '../../assets/project/0.jpg';
+import OpenFields from '../../assets/project/2.jpg';
+import Greenside from '../../assets/project/3.jpg';
+import VeganMart from '../../assets/project/4.png';
 
 function Apps( item ) {
     

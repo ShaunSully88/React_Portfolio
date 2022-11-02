@@ -23,6 +23,16 @@ function About() {
                         my teammates reach their goals. Looking forward to a new career path and everything that comes with it!
                     </p>
                 </Col>
+                <Col>
+                <h1 id="Shaun_Tech_Skills"> Technical Skills </h1>
+                <h1 className="ShaunLF">Languages/frameworks:</h1>
+                <p className="Shaun_Description" >- HTML, CSS, JavaScript, React, jQuery,
+                    JSON, Node.js, Express.js, Jest, MySQL, Sequelize, Handlebars,
+                    MongoDB, Mongoose and GraphQL.
+                </p>
+                <h1 className="HaleyLF">Other Technologies:</h1>
+                <p className="Shaun_Description">- GitHub, Heroku, Indexed DB API and Visio Studio Code.</p>
+            </Col>
             </Row>
         </section>
         </Container>
