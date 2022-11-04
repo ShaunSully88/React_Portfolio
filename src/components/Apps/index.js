@@ -1,5 +1,5 @@
 import React from 'react';
-import Col from 'react-bootstrap/Col';
+import Carousel from 'react-bootstrap/Carousel';
 import EmployeeTracker from '../../assets/project/1.jpg';
 import OpenFields from '../../assets/project/2.jpg';
 import Greenside from '../../assets/project/3.jpg';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-//import pdf from '../../Resume.pdf'
+import pdf from '../../Resume.pdf'
 
 function Header() {
     return (
@@ -13,12 +13,15 @@ function Header() {
         </h2>
         <nav>
             <Link className="aboutme" to="/About"> About Me</Link>
-            <Link className="portfolio" to="/Portfolio"> Portfolio</Link>
-            
+            <Link className="portfolio" to="/Projects"> Portfolio</Link>
+            <Link className="contact" to="/Contact"> Contact</Link>
+            <a className="resume" href={pdf} target="_blank" rel="noreferrer">
+            Resume
+            </a>
         </nav>
         </div>
     </header>
     );
 }
 
-export default Header;
+export default Header

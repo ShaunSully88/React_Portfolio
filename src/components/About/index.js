@@ -31,7 +31,7 @@ function About() {
                     JSON, Node.js, Express.js, Jest, MySQL, Sequelize, Handlebars,
                     MongoDB, Mongoose and GraphQL.
                 </p>
-                <h1 className="HaleyLF">Other Technologies:</h1>
+                <h1 className="ShaunLF">Other Technologies:</h1>
                 <p className="Shaun_Description">- GitHub, Heroku, Indexed DB API and Visio Studio Code.</p>
             </Col>
             </Row>
