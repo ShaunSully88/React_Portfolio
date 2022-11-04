@@ -21,8 +21,12 @@ function App() {
                 element={<About />} 
               />
               <Route 
-                path="/Portfolio" 
+                path="/Apps" 
                 element={<Apps />} 
+              />
+              <Route
+                path="/contact"
+                element={<Contact />}
               />
             </Routes>
           </div>

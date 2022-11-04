@@ -1,8 +1,9 @@
+import React from 'react';
 import coverImage from "../../assets/cover/ShaunAlices.jpg";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-const React = require('react');
+
 
 
 function About() {
