@@ -11,9 +11,9 @@ function About() {
     return (
         <Container>
         <section className="my-5">
-            <Row>
+            <Row lg="auto">
                 <Col>
-                    <img src={coverImage} className="my-2 Shaun" style={{ width: "50%" }} alt="cover" />
+                    <img src={coverImage} className="my-2 Shaun" style={{ width: "30%" }} alt="cover" />
                 </Col>
                 <Col>
                     <h1 id="about">Shaun Sullivan</h1>

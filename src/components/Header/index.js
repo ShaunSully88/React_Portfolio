@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import pdf from '../../Resume.pdf'
+import pdf from '../../Resume2022.pdf'
 
 function Header() {
     return (
@@ -24,4 +24,4 @@ function Header() {
     );
 }
 
-export default Header
+export default Header;
