@@ -17,7 +17,7 @@ function Projects () {
                 <Carousel.Caption>
                     <h3>Open Fields</h3>
                     <p className="apps">Website that helps gardeners learn the basics of vegetable gardening and harvesting.</p> 
-                    <p className="apps"> Languages: HTML, CSS, Third-party API </p>
+                    <p className="apps"> Languages: HTML, CSS, Javascript, API </p>
                     <a className="githubrepo" href="https://github.com/ShaunSully88/Open-Fields" target="_blank" rel="noreferrer">GitHub Repo</a>
                     <a className="deployedprojects" href="https://shaunsully88.github.io/Open-Fields/" target="_blank" rel="noreferrer">Deployed Link</a>
                 </Carousel.Caption>
@@ -32,8 +32,8 @@ function Projects () {
 
                 <Carousel.Caption>
                     <h3>Employee Tracker</h3>
-                    <p className="apps">Website that helps organize Employee database by different categories</p> 
-                    <p className="apps"> Languages: SQL, Javascript, Node</p>
+                    <p className="apps">Node Application that organizes Employee database by different categories</p> 
+                    <p className="apps"> Languages: Node, Javascript, MySQL</p>
                     <a className="githubrepo" href="https://github.com/ShaunSully88/EmployeeTracker" target="_blank" rel="noreferrer">GitHub Repo</a>
                     <a className="deployedprojects" href="https://drive.google.com/file/d/1yLK-1TxzVoqAsq7Bv5mKL4EvmvP74gDP/view" target="_blank" rel="noreferrer">Deployed Link</a>
                 </Carousel.Caption>
@@ -49,7 +49,7 @@ function Projects () {
                 <Carousel.Caption>
                     <h3>Vegan Mart</h3>
                     <p className="apps">E-commerce site for online grocery shopping</p> 
-                    <p className="apps"> Languages: JavaScript, SQL, MongoDB, React </p>
+                    <p className="apps"> Languages: React, SQL, MongoDB, Express. </p>
                     <a className="githubrepo" href="https://github.com/ShaunSully88/VeganMart" target="_blank" rel="noreferrer">GitHub Repo</a>
                     <a className="deployedprojects" href="https://pure-spire-62048.herokuapp.com/" target="_blank" rel="noreferrer">Deployed Link</a>
                 </Carousel.Caption>
@@ -65,7 +65,7 @@ function Projects () {
                 <Carousel.Caption>
                     <h3>Greenside</h3>
                     <p className="apps">Website to search and filter for golf courses across Ontario</p> 
-                    <p className="apps"> Languages: SQL, Javascsript, Express.js, React, MongoDB </p>
+                    <p className="apps"> Languages: SQL, Javascsript, Express, React, MongoDB </p>
                     <a className="githubrepo" href="https://github.com/ShaunSully88/Greenside" target="_blank" rel="noreferrer">GitHub Repo</a>
                     
                 </Carousel.Caption>
