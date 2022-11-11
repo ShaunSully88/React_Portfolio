@@ -21,6 +21,7 @@ main {
 html,
 body {
   min-height: 100%;
+  z-index: 1;
 }
 
 h3 {
@@ -30,7 +31,7 @@ h3 {
 
 .deployedprojects {
   color: var(--light);
-  text-decoration: none;
+  text-decoration: underline;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-style: italic;
@@ -43,7 +44,7 @@ h3 {
 
 .githubrepo {
   color: var(--light);
-  text-decoration: none;
+  text-decoration: underline;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-right: 20px;
   font-size: 16px;
@@ -60,7 +61,7 @@ h3 {
 
 .resume {
   text-decoration: none;
-  color: var(--light);
+  color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-style: italic;
   font-size: 20px;
@@ -84,7 +85,7 @@ h3 {
 position: relative;
 background: grey;
 border-radius: 10px;
-opacity: 0.70;
+opacity: 0.85;
 
 } 
 
@@ -96,6 +97,7 @@ header {
   font-style: italic;
   font-size: 20px;
   font-weight: normal;
+  border-bottom: 1px solid black;
 }
 
 header a {
@@ -139,6 +141,7 @@ img {
 .Shaun {
   border-radius: 15%;
   position: relative;
+  z-index: 1;
   margin-left: 450px;
 }
 
@@ -235,11 +238,13 @@ nav li {
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   position: sticky;
+  
 }
 
 .sticky-nav{
 	position: sticky;
 	top: 0;
+  z-index: 2;
 }
 
 textarea {
