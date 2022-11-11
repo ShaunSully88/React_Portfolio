@@ -63,7 +63,6 @@ h3 {
   text-decoration: none;
   color: black;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
   font-size: 20px;
   font-weight: normal;
 }
@@ -94,7 +93,6 @@ header {
   background: linear-gradient(#3C99DC, #D5F3FE);
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
   font-size: 20px;
   font-weight: normal;
   border-bottom: 1px solid black;
@@ -150,9 +148,9 @@ img {
   position:relative; 
   top:2px; 
   margin-top: 250px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
+
 
 #Shaun_Tech_Skills{
   text-align: center;
@@ -161,7 +159,7 @@ img {
   margin-left: 20px;
   margin-top: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
+
 }
 .Shaun_Description{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -174,7 +172,6 @@ img {
 .aboutme {
   margin-right: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
   font-size: 20px;
   font-weight: normal;
 }
@@ -186,12 +183,10 @@ img {
 .ShaunLF {
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
 }
 
 .apps {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
   font-size: 14px;
   text-align: center;
 }
@@ -199,7 +194,6 @@ img {
 .portfolio {
   margin-right: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
   font-size: 20px;
   font-weight: normal;
 }
@@ -207,14 +201,12 @@ img {
 .contact {
   margin-right: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
   font-size: 20px;
   font-weight: normal;
 }
 
 .Shaun_Contact {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-style: italic;
 }
 
 
@@ -229,14 +221,14 @@ nav a:hover {
 
 nav li {
   cursor: pointer;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Console';
 }
 
 .nav {
   text-decoration: none;
   color: black;
   text-align: center;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Console';
   position: sticky;
   
 }
@@ -244,7 +236,7 @@ nav li {
 .sticky-nav{
 	position: sticky;
 	top: 0;
-  z-index: 2;
+ z-index: 2;
 }
 
 textarea {
