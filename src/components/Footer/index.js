@@ -31,6 +31,9 @@ function Footer () {
           </div>
         </Col>
     </Row>
+    <Row>
+      <p class="text-dark h7 text-center mt-4"> &copy; Copyright 2022, Shaun Sullivan. All Rights Reserved. Han shot first.</p>
+    </Row>
     </footer>
     );
 }

@@ -8,12 +8,12 @@ function Header() {
         <div className="container flex-row justify-space-between-lg justify-center align-center">
             <h2>
                 <a href="/">
-                    <h4 className="header">Shaun Sullivan's Portfolio</h4>
+                    <h4 className="header">Shaun's Beard</h4>
                 </a>
             </h2>
            <nav>
             <Link className="aboutme" to="/About"> About Me</Link>
-            <Link className="portfolio" to="/Projects"> Portfolio</Link>
+            <Link className="portfolio" to="/Projects"> Projects</Link>
             <Link className="contact" to="/Contact"> Contact</Link>
             <a className="resume" href={pdf} target="_blank" rel="noreferrer">
             Resume

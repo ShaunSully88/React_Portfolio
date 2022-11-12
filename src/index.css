@@ -262,6 +262,7 @@ img {
 
 .Shaun_Contact {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: var(--dark)
 }
 
 li {
