@@ -24,6 +24,40 @@ body {
   z-index: 1;
 }
 
+#inLeft {
+animation-duration: 3s;
+animation-name: slideinleft;
+}
+
+#inRight {
+  animation-duration: 3s;
+  animation-name: slideinright;
+  }
+
+@keyframes slideinleft {
+  from {
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-right: 50%;
+    width: 100%;
+  }
+}
+
+@keyframes slideinright {
+  from {
+    margin-left: 0%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 50%;
+    width: 100%;
+  }
+}
+
 h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   padding: 10px;
