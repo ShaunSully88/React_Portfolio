@@ -16,12 +16,14 @@ main {
 
 * {
   box-sizing: border-box;
+ 
 }
 
 html,
 body {
   min-height: 100%;
   z-index: 1;
+  background-image: url("./assets/background.jpg");
 }
 
 #inLeft {
@@ -78,11 +80,13 @@ animation-name: slideinleft;
 
 h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #044e2d;
   padding: 10px;
 }
 
+
 .deployedprojects {
-  color: var(--light);
+  color: #044e2d;
   text-decoration: underline;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -95,7 +99,7 @@ h3 {
 }
 
 .githubrepo {
-  color: var(--light);
+  color: #044e2d;
   text-decoration: underline;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-right: 20px;
@@ -134,7 +138,7 @@ h3 {
 
 .carousel-caption {
 position: relative;
-background: grey;
+background: #77b7e5;
 border-radius: 10px;
 opacity: 0.85;
 
@@ -238,11 +242,13 @@ img {
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: var(--dark);
+  align-items: left;
 }
 
 .apps {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 14px;
+
   text-align: center;
 }
 

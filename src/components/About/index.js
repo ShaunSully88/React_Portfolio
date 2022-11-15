@@ -20,21 +20,49 @@ function About() {
                 <Col className="col-md-6 border-end border-success mt-3" >
                       <h3 id="about" className="h3 mt-3">Life and Times Of...</h3>
                       <p id="inLeft">
-                        I am Shaun. Avid outdoorsman, grower of beards, lover of dogs, and all else that provides peace and tranquility. Born and raised in a small town west of Ottawa, Canada, I bring that 
+                      I am Shaun. Avid outdoorsman, grower of beards, lover of dogs, and all else that provides peace and tranquility. Born and raised in a small town west of Ottawa, Canada, I bring that 
                        small town vibe with me wherever I go. I dream to one day own a cabin in the woods and be able to work from there, and will do whatever it takes to make that dream come true!
+                        <br></br><br></br>
+                        One of my biggest passions has always been writing. I currently write articles for a Pittsburgh Penguins fansite as a hobby. Prior to this, I was a spoken word artist in the city of Ottawa. I culminated that chapter of my life by publishing my own book of poetry.
+                        <br></br><br></br>
+                        I recently sold my home care company, which I owned and operated from 2016 to 2022. It was as rewarding as it was taxing, I am looking forward to start a new career that allows me to
+                        focus more on Myself, my Wife, my 2 dogs and 3 cats!
+                      
                       </p>      
                 </Col>
-                <Col className="col-md-6 mt-3" >
-                  <h3 className="h3" id="Shaun_Tech_Skills"> Technical Skills </h3>
-                  <h5 className="ShaunLF h5" id="inRight">Languages/frameworks:</h5>
-                  <p className="Shaun_Description" id="inRight">- HTML, CSS, JavaScript, React,
-                    JSON, Node.js, Express.js, MySQL, Sequelize, MongoDB, Mongoose and GraphQL.
-                  </p>
-                  <h5 className="ShaunLF h5" id="inRight">Other Technologies:</h5>
-                  <p className="Shaun_Description" id="inRight">- GitHub, Git, CLI, Heroku and Visual Studio Code.</p>
-                </Col>
-            </Row>
-            
+                  <Col className="col-md-6 mt-3" >
+                    <h3 className="h3" id="Shaun_Tech_Skills"> Technical Skills </h3>
+                    <Row>
+                    <Col className="col-sm-3 text- mx-auto">
+                      <h5 className="ShaunLF h5" id="inRight">Front End</h5>
+                      <p className="Shaun_Description" id="inRight">
+                        <ul>
+                        <li>HTML</li> 
+                        <li>CSS</li>
+                        <li>JavaScript</li> 
+                        <li>React</li> 
+                        <li>JSON</li>
+                        </ul>
+                      </p>
+                    </Col>
+                    
+                    <Col className="col-sm-3 text-center mx-auto">
+                      <h5 className="ShaunLF h5" id="inRight">Back End</h5>
+                      <p className="Shaun_Description text-center" id="inRight">
+                        <ul>
+                          <li>Node.js</li>
+                          <li>Express.js</li>
+                          <li>MySQL</li>
+                          <li>Sequelize</li>
+                          <li>MongoDB</li>
+                          <li>Mongoose</li>
+                          <li>GraphQL</li> 
+                        </ul>
+                      </p>
+                    </Col>
+                    </Row>
+                  </Col>
+              </Row>
         </section>
         </Container>
         );
