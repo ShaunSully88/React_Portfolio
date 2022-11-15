@@ -25,7 +25,7 @@ function About() {
                         <br></br><br></br>
                         One of my biggest passions has always been writing. I currently write articles for a Pittsburgh Penguins fansite as a hobby. Prior to this, I was a spoken word artist in the city of Ottawa. I culminated that chapter of my life by publishing my own book of poetry.
                         <br></br><br></br>
-                        I recently sold my home care company, which I owned and operated from 2016 to 2022. It was as rewarding as it was taxing, I am looking forward to start a new career that allows me to
+                        I recently sold my home care company, which I owned and operated from 2016 to 2022. It was as rewarding as it was taxing, I am looking forward to starting a new career that allows me to
                         focus more on Myself, my Wife, my 2 dogs and 3 cats!
                       
                       </p>      
@@ -33,30 +33,35 @@ function About() {
                   <Col className="col-md-6 mt-3" >
                     <h3 className="h3" id="Shaun_Tech_Skills"> Technical Skills </h3>
                     <Row>
-                    <Col className="col-sm-3 text- mx-auto">
-                      <h5 className="ShaunLF h5" id="inRight">Front End</h5>
+                    <Col className="col-sm-3 mx-auto">
                       <p className="Shaun_Description" id="inRight">
                         <ul>
-                        <li>HTML</li> 
+                        <li>HTML5</li> 
                         <li>CSS</li>
+                        <li>Typescript</li>
                         <li>JavaScript</li> 
-                        <li>React</li> 
+                        <li>NodeJS</li> 
+                        <li>Bootstrap</li>
                         <li>JSON</li>
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>API's</li>
                         </ul>
                       </p>
                     </Col>
-                    
-                    <Col className="col-sm-3 text-center mx-auto">
-                      <h5 className="ShaunLF h5" id="inRight">Back End</h5>
-                      <p className="Shaun_Description text-center" id="inRight">
+                    <Col className="col-sm-3 mx-auto">
+                      <p className="Shaun_Description" id="inRight">
                         <ul>
-                          <li>Node.js</li>
-                          <li>Express.js</li>
-                          <li>MySQL</li>
+                          <li>React</li>
+                          <li>ExpressJS</li>
+                          <li>SQL</li>
+                          <li>NoSQL</li>
                           <li>Sequelize</li>
                           <li>MongoDB</li>
                           <li>Mongoose</li>
-                          <li>GraphQL</li> 
+                          <li>GraphQL</li>
+                          <li>VSCode</li>
+                          <li>Heroku</li> 
                         </ul>
                       </p>
                     </Col>

@@ -7,7 +7,7 @@ main {
   --primary: #3C99DC;
   --tertiary: #D5F3FE;
   --light: #fafafa;
-  --dark: #044e2d;
+  --dark: white;
   --darker: #111111;
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -23,7 +23,9 @@ html,
 body {
   min-height: 100%;
   z-index: 1;
-  background-image: url("./assets/background.jpg");
+  background-image: url("./assets/background2.jpg");
+  background-size: cover;
+  background-position: 20%;
 }
 
 #inLeft {
@@ -50,7 +52,7 @@ animation-name: slideinleft;
 
 @keyframes slideinright {
   from {
-    margin-left: 100%;
+    margin-left: 350%;
     width: 100%;
   }
 
@@ -80,13 +82,13 @@ animation-name: slideinleft;
 
 h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #044e2d;
+  color: white;
   padding: 10px;
 }
 
 
 .deployedprojects {
-  color: #044e2d;
+  color: white;
   text-decoration: underline;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -99,7 +101,7 @@ h3 {
 }
 
 .githubrepo {
-  color: #044e2d;
+  color: white;
   text-decoration: underline;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-right: 20px;
@@ -123,30 +125,17 @@ h3 {
   font-weight: normal;
 }
 
-.carousel-control-next-icon:after
-{
-  content: '>';
-  font-size: 55px;
-  color: var(--dark);
-}
-
-.carousel-control-prev-icon:after {
-  content: '<';
-  font-size: 55px;
-  color: var(--dark);
-}
-
 .carousel-caption {
 position: relative;
 background: #77b7e5;
 border-radius: 10px;
 opacity: 0.85;
-
+background: linear-gradient(#37393e, #f19e44);
 } 
 
 
 header {
-  background: linear-gradient(#a8d3f2, #b1c9e3);
+  background: linear-gradient(#37393e, #f19e44);
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
@@ -173,14 +162,13 @@ header a {
 .footer-img1 {
   display: block;
   margin-left: 90%;
-  box-shadow: 5px 5px 5px black;
+ 
 }
 
 .footer-img2 {
   display: block;
   margin-right: 90%;
   margin-bottom: 15px;
-  box-shadow: 5px 5px 5px #034f84;
 }
 
 img {
