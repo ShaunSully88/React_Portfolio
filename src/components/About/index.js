@@ -1,5 +1,5 @@
 import React from 'react';
-import coverImage from "../../assets/cover/ShaunZuka.jpg";
+import coverImage from "../../assets/cover/ShaunBogey.jpg";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -17,20 +17,20 @@ function About() {
                 </Col>
             </Row>  
             <Row>   
-                <Col className="col-md-6 border-end border-success mt-3" >
-                      <h3 id="about" className="h3 mt-3">Life and Times Of...</h3>
+                <Col className="col-md-6 border-end border-white mt-3" >
+                      <h3 id="about" className="h3 mt-3 ">Life and Times Of...</h3>
                       <p id="inLeft">
-                      I am Shaun. Avid outdoorsman, grower of beards, and also a Full Stack Web Developer. I dream to one day own a cabin in the woods and be able to work from there, and will do whatever it takes to make that dream come true!
+                      I am Shaun. Avid outdoorsman, grower of beards, and a Full Stack Web Developer. I dream to one day own a cabin in the woods and be able to work from there, and will do whatever it takes to make that dream come true!
                         <br></br><br></br>
                        
                         I recently sold my home care company, which I owned and operated from 2016 to 2022. It was as rewarding as it was taxing, I am looking forward to starting a new career that allows me to
-                        focus more on Myself, my Wife, my 2 dogs and 3 cats!
+                        focus more on Myself, my Wife, my two dogs and three cats!
                       
                       </p>      
                 </Col>
-                  <Col className="col-md-6 mt-3" >
+                <Col className="col-md-6 mt-3" >
                     <h3 className="h3" id="Shaun_Tech_Skills"> Technical Skills </h3>
-                    <Row>
+                  <Row>
                     <Col className="col-sm-3 mx-auto">
                       <p className="Shaun_Description" id="inRight">
                         <ul>
@@ -63,8 +63,8 @@ function About() {
                         </ul>
                       </p>
                     </Col>
-                    </Row>
-                  </Col>
+                  </Row>
+                 </Col>
               </Row>
         </section>
         </Container>

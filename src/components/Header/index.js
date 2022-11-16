@@ -8,7 +8,7 @@ function Header() {
         <div className="container flex-row justify-space-between-lg justify-center align-center">
             <h2>
                 <a href="/">
-                    <h4 className="header">The Adventures of Shaun</h4>
+                    <h4 className="header">Full Stack Web Development Portfolio</h4>
                 </a>
             </h2>
            <nav>

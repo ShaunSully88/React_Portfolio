@@ -23,22 +23,22 @@ html,
 body {
   min-height: 100%;
   z-index: 1;
-  background-image: url("./assets/background.jpg");
+  background-image: url("./assets/background2.jpg");
   background-size: cover;
   background-position: 20%;
 }
 
 header {
-  background: linear-gradient(#3C99DC, #cccccc);
+  background: linear-gradient(rgb(207, 113, 31), #070707);
   text-decoration: none;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   font-weight: normal;
-  border-bottom: 1px  solid var(--dark);
+
 }
 
 header a {
-  color: rgb(7, 96, 60);
+  color: white;
   text-decoration: none;
 }
 
@@ -65,7 +65,7 @@ nav li {
 
 nav {
   text-decoration: none;
-  color: rgb(7, 96, 60);
+  color: white;
   text-align: center;
   font-family: 'Lucida Console';
   position: sticky;  
@@ -83,7 +83,7 @@ img {
   width: 100%;
   height: 100%;
   align-content: center;
-  border: 2px solid var(--dark);
+  border: 2px solid black;
 }
 
 .Shaun {
@@ -99,7 +99,7 @@ img {
   top:2px; 
   margin-top: 250px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-  color: rgb(7, 96, 60);
+  color: white;
 }
 
 
@@ -110,8 +110,9 @@ img {
   margin-left: 20px;
   margin-top: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(7, 96, 60);
+  color: white;
 }
+
 .Shaun_Description{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: normal;
@@ -119,7 +120,7 @@ img {
   letter-spacing: 1px;
   text-indent: 40px;
   word-spacing: -2px;
-  color: rgb(7, 96, 60);
+  color: white;
 }
 .aboutme {
   margin-right: 20px;
@@ -129,13 +130,13 @@ img {
 }
 
 .aboutShaun {
-  margin-right: 100px;
+  margin-right: 120px;
 }
 
 .ShaunLF {
   font-size: 25px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(7, 96, 60);
+  color: white;
   align-items: left;
 }
 
@@ -195,12 +196,13 @@ animation-name: slideinleft;
 
 .Shaun_Contact {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(7, 96, 60);
+  color: white;
+  margin-top: 250px;
 }
 
 .resume {
   text-decoration: none;
-  color: rgb(7, 96, 60);
+  color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   font-weight: normal;
@@ -215,12 +217,12 @@ li {
   background: #77b7e5;
   border-radius: 10px;
   opacity: 0.85;
-  background: linear-gradient(#3C99DC, #cccccc);
+  background: linear-gradient(rgb(207, 113, 31), #070707);
   } 
 
   
 .deployedprojects {
-  color: rgb(7, 96, 60);
+  color: white;
   text-decoration: underline;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -233,7 +235,7 @@ li {
 }
 
 .githubrepo {
-  color: rgb(7, 96, 60);
+  color: white;
   text-decoration: underline;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-right: 20px;
@@ -247,29 +249,30 @@ li {
 }
 
 footer p {
-  color: rgb(7, 96, 60);
+  color:white;
 }
 
 .footer-img1 {
   display: block;
   margin-left: 90%;
- 
+  border: white;
 }
 
 .footer-img2 {
   display: block;
   margin-right: 90%;
   margin-bottom: 15px;
+  border: white;
 }
 
 h3 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: rgb(7, 96, 60);
+  color: white;
   padding: 10px;
 }
 
 p {
-  color: rgb(7, 96, 60);
+  color: white;
 }
 
 textarea {

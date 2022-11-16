@@ -16,7 +16,7 @@ function Projects () {
                 />
                 <Carousel.Caption>
                     <h3>Open Fields</h3>
-                    <p className="apps">Website that helps gardeners learn the basics of vegetable gardening and harvesting.</p> 
+                    <p className="apps">App that helps gardeners learn the basics of vegetable gardening and harvesting.</p> 
                     <p className="apps"> Languages Used: HTML, CSS, Javascript, API </p>
                     <a className="githubrepo" href="https://github.com/ShaunSully88/Open-Fields" target="_blank" rel="noreferrer">GitHub Code</a>
                     <a className="deployedprojects" href="https://shaunsully88.github.io/Open-Fields/" target="_blank" rel="noreferrer">Deployed Link</a>
@@ -32,7 +32,7 @@ function Projects () {
 
                 <Carousel.Caption>
                     <h3>Employee Tracker</h3>
-                    <p className="apps">Node Application that organizes Employee database by different categories</p> 
+                    <p className="apps">Node application that organizes employee database by different categories</p> 
                     <p className="apps"> Languages Used: Node, Javascript, SQL</p>
                     <a className="githubrepo" href="https://github.com/ShaunSully88/EmployeeTracker" target="_blank" rel="noreferrer">GitHub Code</a>
                     <a className="deployedprojects" href="https://drive.google.com/file/d/1yLK-1TxzVoqAsq7Bv5mKL4EvmvP74gDP/view" target="_blank" rel="noreferrer">Deployed Link</a>
