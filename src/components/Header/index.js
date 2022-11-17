@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import pdf from '../../Resume2022.pdf';
+import pdf from '../../Shaun Sullivan Resume.pdf';
 
 function Header() {
     return (
