@@ -9,10 +9,8 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-
-    <div>
-      <Router>
-        
+    <Router>
+        <div className="flex-column justify-flex-start min-100-vh">
           <Header />
           
             
@@ -35,10 +33,8 @@ function App() {
             
           
           <Footer />
-        
+        </div>
       </Router>
-
-    </div>
   );
 
  
