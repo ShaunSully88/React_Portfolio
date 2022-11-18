@@ -13,7 +13,7 @@ function App() {
         <div className="flex-column justify-flex-start min-100-vh">
           <Header />
           
-            
+            <Routes>
               <Route
                 path="/"
                 element={<About />}
@@ -30,7 +30,7 @@ function App() {
                 path="/Contact"
                 element={<Contact />}
               />
-            
+            </Routes>
           
           <Footer />
         </div>
