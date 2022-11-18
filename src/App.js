@@ -14,21 +14,21 @@ function App() {
           <Header />
           
             <Routes>
-              <Route
+              <Route exact
                 path="/"
-                element={<About />}
+                component={<About />}
                 />
               <Route 
                 path="/About" 
-                element={<About />} 
+                component={<About />} 
               />
               <Route 
                 path="/Projects" 
-                element={<Projects />} 
+                component={<Projects />} 
               />
               <Route
                 path="/Contact"
-                element={<Contact />}
+                component={<Contact />}
               />
             </Routes>
           
