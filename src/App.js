@@ -12,10 +12,11 @@ function App() {
     <Router>
         <div className="flex-column justify-flex-start min-100-vh">
           <Header />
+          <About />
           <div className="container">
             <Routes>
               <Route 
-                path="/" 
+                path="/About" 
                 element={<About />} 
               />
               <Route 
