@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
 import About from './components/About';
 import Footer from './components/Footer';
@@ -9,11 +9,13 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <Router>
-        <div className="flex-column justify-flex-start min-100-vh">
+
+    <div>
+      <Router>
+        
           <Header />
           
-            <Routes>
+            
               <Route
                 path="/"
                 element={<About />}
@@ -30,11 +32,13 @@ function App() {
                 path="/Contact"
                 element={<Contact />}
               />
-            </Routes>
+            
           
           <Footer />
-        </div>
+        
       </Router>
+
+    </div>
   );
 
  
