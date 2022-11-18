@@ -12,7 +12,7 @@ function App() {
     <Router>
         <div className="flex-column justify-flex-start min-100-vh">
           <Header />
-          <div className="container">
+          
             <Routes>
               <Route
                 path="/"
@@ -31,7 +31,7 @@ function App() {
                 element={<Contact />}
               />
             </Routes>
-          </div>
+          
           <Footer />
         </div>
       </Router>
