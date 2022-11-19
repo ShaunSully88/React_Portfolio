@@ -10,11 +10,11 @@ function Projects () {
         <Carousel fade interval={5000}>
                 <Carousel.Item>
                 <img
-                    className="mx-auto d-block w-75 vh-50"
+                    className="mx-auto d-block w-50 vh-50"
                     src={OpenFields}
                     alt="Open Fields"
                 />
-                <Carousel.Caption>
+                <Carousel.Caption className= "mx-auto d-block w-50">
                     <h3>Open Fields</h3>
                     <p className="apps">App that helps gardeners learn the basics of vegetable gardening and harvesting.</p> 
                     <p className="apps"> Languages Used: HTML, CSS, Javascript, API </p>
@@ -25,12 +25,12 @@ function Projects () {
 
             <Carousel.Item>
                 <img
-                    className="mx-auto d-block w-75 vh-50"
+                    className="mx-auto d-block w-50 vh-50"
                     src={EmployeeTracker}
                     alt="Employee Tracker"
                 />
 
-                <Carousel.Caption>
+                <Carousel.Caption className= "mx-auto d-block w-50">
                     <h3>Employee Tracker</h3>
                     <p className="apps">Node application that organizes employee database by different categories</p> 
                     <p className="apps"> Languages Used: Node, Javascript, SQL</p>
@@ -41,12 +41,12 @@ function Projects () {
 
             <Carousel.Item>
                 <img
-                    className="mx-auto d-block w-75 vh-50"
+                    className="mx-auto d-block w-50 vh-50"
                     src={VeganMart}
                     alt="Vegan Mart"
                 />
 
-                <Carousel.Caption>
+                <Carousel.Caption className= "mx-auto d-block w-50">
                     <h3>Vegan Mart</h3>
                     <p className="apps">E-commerce site for online grocery shopping</p> 
                     <p className="apps"> Languages Used: React, SQL, MongoDB, Express. </p>
@@ -57,12 +57,12 @@ function Projects () {
 
             <Carousel.Item>
                 <img
-                    className="mx-auto d-block w-75 vh-50"
+                    className="mx-auto d-block w-50 vh-50"
                     src={Greenside}
                     alt="Greenside"
                 />
 
-                <Carousel.Caption>
+                <Carousel.Caption className= "mx-auto d-block w-50">
                     <h3>Greenside</h3>
                     <p className="apps">Website to search and filter for golf courses across Ontario</p> 
                     <p className="apps"> Languages Used: SQL, Javascsript, Express, React, MongoDB </p>

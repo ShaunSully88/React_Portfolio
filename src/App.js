@@ -16,19 +16,19 @@ function App() {
             <Routes>
               <Route exact
                 path="/"
-                component={<About />}
+                element={<About />}
                 />
               <Route 
                 path="/About" 
-                component={<About />} 
+                element={<About />} 
               />
               <Route 
                 path="/Projects" 
-                component={<Projects />} 
+                element={<Projects />} 
               />
               <Route
                 path="/Contact"
-                component={<Contact />}
+                element={<Contact />}
               />
             </Routes>
           
