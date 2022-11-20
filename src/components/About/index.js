@@ -37,6 +37,7 @@ function About() {
                         <li>HTML5</li> 
                         <li>CSS</li>
                         <li>Typescript</li>
+                        <li>Java</li>
                         <li>JavaScript</li> 
                         <li>NodeJS</li> 
                         <li>Bootstrap</li>
